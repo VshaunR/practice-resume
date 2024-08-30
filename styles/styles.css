@@ -5,30 +5,47 @@ body{
   font-family: sans-serif;
   text-align: center;
 }
+h1,h2,h3,h4{
+  margin: 0;
+}
 .container{
   display:grid;
-  gap: 80px;
+  grid-template-columns: auto ;
+  gap: 30px;
   height: 100vh;
   transition: all ease-in 1s;
   background-color: rgb(27, 134, 228);
   color: rgb(199, 233, 233);
+  
 }
 .header{
   display: flex;
   flex-direction: column;
   justify-content: center;
+ 
+  
+}
+.about{
+  display: flex;
+  justify-content: center;
   align-items: center;
+  font-weight: 900;
+  font-family: sans-serif;
+  line-height: 40px;
+  
 }
 .main{
 display: flex;
 justify-content: center;
 gap: 20px;
+align-items: start;
 }
-.projects{
+.projects,.skills,.education,.experience{
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 20px;
+
 }
 a{
   text-decoration: none;
@@ -37,28 +54,14 @@ a{
 li{
   list-style: none;
 }
-h4,h1,h3{
-  text-decoration: underline;
+
+
+ul,ol{
   margin: 0;
+  
 }
-h3{
-  margin-bottom: 5px;
-}
-ul{
-  margin: 0;
-}
-@media screen and (max-width:800px){
-  .container{
-    height: 100vh;
-    display: grid;
-    background-color: rgb(19, 75, 124);
-    color: aqua;
-    transition: all ease-in 1s;
-    gap: 10px;
-  }
-  .main{
-    display: flex;
-    flex-direction: column;
-    transition: all ease-in-out 1s;
-  }
+.section-title{
+text-decoration: underline;
+color: black;
+
 }
