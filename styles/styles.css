@@ -4,15 +4,17 @@ body{
   padding: 0;
   font-family: sans-serif;
   text-align: center;
+
 }
+
 h1,h2,h3,h4{
   margin: 0;
 }
 .container{
   display:grid;
-  grid-template-columns: auto ;
-  gap: 30px;
-  height: 100vh;
+  grid-template-columns: 1fr;
+
+
   transition: all ease-in 1s;
   background-color: rgb(27, 134, 228);
   color: rgb(199, 233, 233);
@@ -22,21 +24,21 @@ h1,h2,h3,h4{
   display: flex;
   flex-direction: column;
   justify-content: center;
- 
+ align-items: center;
   
 }
 .about{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 900;
-  font-family: sans-serif;
-  line-height: 40px;
+ 
   
+}
+.work-title{
+  color: rgb(210, 205, 214);
+ 
 }
 .main{
 display: flex;
 justify-content: center;
+flex-wrap: wrap;
 gap: 20px;
 align-items: start;
 }
@@ -46,6 +48,11 @@ align-items: start;
   flex-direction: column;
   gap: 20px;
 
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 a{
   text-decoration: none;
@@ -59,6 +66,11 @@ li{
 ul,ol{
   margin: 0;
   
+}
+p{
+  width: fit-content;
+  min-width: 200px;
+  max-width: 300px;
 }
 .section-title{
 text-decoration: underline;
