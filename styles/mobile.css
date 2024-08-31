@@ -20,6 +20,13 @@
 @media screen and (min-width:800px) {
   .container{
     
-    
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(19, 75, 124);
+    color: aqua;
+    transition: all ease-in 1s;
+    gap: 50px;
+    padding: 1rem;
   }
 }

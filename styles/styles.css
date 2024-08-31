@@ -13,12 +13,10 @@ h1,h2,h3,h4{
 .container{
   display:grid;
   grid-template-columns: 1fr;
-
-
   transition: all ease-in 1s;
   background-color: rgb(27, 134, 228);
   color: rgb(199, 233, 233);
-  
+  padding: 1rem;
 }
 .header{
   display: flex;
@@ -71,6 +69,7 @@ p{
   width: fit-content;
   min-width: 200px;
   max-width: 300px;
+  margin: 0;
 }
 .section-title{
 text-decoration: underline;
