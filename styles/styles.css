@@ -45,6 +45,7 @@ align-items: start;
   justify-content: center;
   flex-direction: column;
   gap: 20px;
+  flex-wrap: wrap;
 
 }
 .footer{
