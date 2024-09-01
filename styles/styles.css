@@ -30,6 +30,7 @@ h1,h2,h3,h4{
   flex-direction: column;
   gap: 20px;
   border: 1px solid black;
+  margin-left: 60px;
 }
 hr{
   border: 1px solid black;
@@ -50,6 +51,7 @@ justify-content: center;
 flex-wrap: wrap;
 gap: 20px;
 align-items: start;
+
 }
 .projects,.skills,.education,.experience{
   display: flex;
