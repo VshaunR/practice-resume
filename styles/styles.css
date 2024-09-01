@@ -11,7 +11,7 @@ h1,h2,h3,h4{
   margin: 0;
 }
 .container{
-  display:grid;
+  
   grid-template-columns: 1fr;
   transition: all ease-in 1s;
   background-color: rgb(27, 134, 228);
@@ -25,13 +25,15 @@ h1,h2,h3,h4{
  align-items: center;
   
 }
-.about{
- 
-  
-}
+
 .work-title{
-  color: rgb(210, 205, 214);
+  color: black;
  
+}
+strong{
+  margin-left: 15px;
+  color: black;
+  margin-bottom: 15px;
 }
 .main{
 display: flex;
@@ -70,7 +72,7 @@ p{
   width: fit-content;
   min-width: 200px;
   max-width: 300px;
-  margin: 0;
+
 }
 .section-title{
 text-decoration: underline;
